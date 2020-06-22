@@ -1,0 +1,22 @@
+.site-layout-background {
+  background: #fff;
+}
+.logo {
+  /* background: rgba(255, 255, 255, 0.3); */
+  margin: 0px;
+  width: 250px;
+  height: 100%;
+  padding-left: 15px;
+  float: left;
+}
+
+.logo-title{
+  color: rgb(159, 167, 174)!important;
+  font-weight: 600;
+}
+
+
+.font-size-sub-menu{
+  font-size: 0.8em!important;
+  font-weight: 600;
+}

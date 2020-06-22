@@ -1,0 +1,155 @@
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(172, 171, 171); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.bg-nav{
+    /* background: #f5222d!important; */
+}
+.pl-0{
+    padding-left: 0px;
+  }
+.pr-0{
+    padding-right: 0px;
+  }
+.pr-1{
+    padding-right: 25px!important;
+}
+
+.main-layout{
+    height: auto;
+}
+.font-size-menu{
+  font-size: 0.8em!important;
+  font-weight: 600;
+  vertical-align: middle!important;
+  transition: all 4s;
+}
+.ant-menu-item {
+    transition: all 4s;
+}
+
+.menu-item-color{
+    color: #f1e8e8!important;
+}
+.pl-0{
+    padding-left: 0px;
+  }
+
+.mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.menu-item:hover {
+    text-shadow: 0 0 5px ;
+}
+.ant-menu-item-selected{
+    background: none!important;
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+    
+}
+.main{
+    padding-top: 64px;
+}
+
+.height-73{
+    height: 73px!important;
+}
+
+.bg-nav{
+    background: #35333ad9!important;
+}
+
+.bg-subnavbar{
+    background: #7b7a7a!important;
+}
+.subnavbar-custom{
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+}
+.ant-card-body {
+    padding: 5px 5px 5px 5px !important;
+}
+.ant-card-grid {
+    padding: 7px 10px 7px 10px !important;
+    margin-bottom: 5px;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.list-branch-item::-webkit-scrollbar {
+    display: none;
+}
+/* .menu-custom::-webkit-scrollbar {
+    display: none;
+} */
+.menu-custom {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: calc(100vh - 72px)!important;
+}
+.hide{
+    display: none;
+}
+
+
+/* Login */
+
+#components-form-demo-normal-login{
+    background: #9a9797;
+    height: 100vh;
+    padding-top: calc(50vh - 100px - 111px);
+}
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+    margin: auto;
+    background: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    
+  }
+  #components-form-demo-normal-login .login-form-forgot {
+    float: right;
+  }
+  #components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  #components-form-demo-normal-login .login-form-button {
+    width: 100%;
+  }
+  .mt-24{
+      margin-top: 24px;
+  }
+  .fixed-100{
+      position: fixed;
+      z-index: 100;
+      top: 5px;
+      width: 300px;
+      left: calc(50vw - 150px);
+  }
+  .branch-status .ant-badge-status-dot{
+      width: 1.2em;
+      height: 1.2em;
+  }
+  .ant-menu-item a{
+      text-decoration: none!important;
+  }
