@@ -39,10 +39,13 @@ export default class PurchaseCallback extends Component {
         const res = await API.checksum(amount, discountamount, appid, checksum, apptransid, pmcid, bankcode, status);
 
         if (res != null) {
-            this.setState({
-                isPurchaseSuccess: true,
-                appTransId: apptransid
-            })
+            console.log(res)
+            if(res.data == true){
+                this.setState({
+                    isPurchaseSuccess: true,
+                    appTransId: apptransid
+                })
+            }
         }
 
     }
@@ -67,6 +70,17 @@ export default class PurchaseCallback extends Component {
             )
             : (
                 <div>
+                    <Result
+                        status="error"
+                        title="Thanh toán thất bại!"
+                        subTitle= {"Đã xảy ra lỗi!"}
+                        extra={[
+                            <Button onClick ={()=> history.push('/invoices-history')} type="primary">
+                                Xem lịch sử
+                            </Button>,
+                            <Button onClick ={()=> history.push('/')}>Về trang chủ</Button>,
+                        ]}
+                    />
 
                 </div>
             );
