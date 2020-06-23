@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ffd-client/static/css/main.851ddd16.chunk.css",
+    "main.js": "/ffd-client/static/js/main.4561885b.chunk.js",
+    "main.js.map": "/ffd-client/static/js/main.4561885b.chunk.js.map",
+    "runtime-main.js": "/ffd-client/static/js/runtime-main.5a5749c3.js",
+    "runtime-main.js.map": "/ffd-client/static/js/runtime-main.5a5749c3.js.map",
+    "static/css/2.28278f22.chunk.css": "/ffd-client/static/css/2.28278f22.chunk.css",
+    "static/js/2.2d0f8583.chunk.js": "/ffd-client/static/js/2.2d0f8583.chunk.js",
+    "static/js/2.2d0f8583.chunk.js.map": "/ffd-client/static/js/2.2d0f8583.chunk.js.map",
+    "index.html": "/ffd-client/index.html",
+    "precache-manifest.1f0779576e8483ec504865a756705e22.js": "/ffd-client/precache-manifest.1f0779576e8483ec504865a756705e22.js",
+    "service-worker.js": "/ffd-client/service-worker.js",
+    "static/css/2.28278f22.chunk.css.map": "/ffd-client/static/css/2.28278f22.chunk.css.map",
+    "static/css/main.851ddd16.chunk.css.map": "/ffd-client/static/css/main.851ddd16.chunk.css.map",
+    "static/js/2.2d0f8583.chunk.js.LICENSE.txt": "/ffd-client/static/js/2.2d0f8583.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a5749c3.js",
+    "static/css/2.28278f22.chunk.css",
+    "static/js/2.2d0f8583.chunk.js",
+    "static/css/main.851ddd16.chunk.css",
+    "static/js/main.4561885b.chunk.js"
+  ]
+}
