@@ -2,10 +2,6 @@
   "name": "ffd-client",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-      "node": "14.4.0",
-      "npm": "6.14.5"
-  },
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
     "@testing-library/jest-dom": "^4.2.4",
